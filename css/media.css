@@ -1,0 +1,28 @@
+@media (max-width: 860px) {
+    ul.navigation,
+    form.search {
+        display: none;
+    }
+
+    header a.menu {
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    div.news .news-element {
+        width: 98%;
+    }
+
+    div.news div.news-element {
+        border-color: #9B51E0;
+    }  
+
+    div.news div.news-element:nth-child(2n) {
+        border-color: #FFC740;
+    }
+
+    div.bottom-news div.bottom-news-elem {
+        width: 98%;
+    }
+}
